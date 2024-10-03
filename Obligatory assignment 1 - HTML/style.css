@@ -1,0 +1,271 @@
+/*
+* CSS for assignment 1
+*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Italics';
+    src: url(fonts/Roboto/Roboto-Italic.ttf);
+}
+
+
+
+
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+}
+
+
+
+
+/*---------- Header ----------*/
+header {
+    text-align: center;
+    color: white;
+    background-color: #1F2936;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h2 {
+    font-family: 'Roboto-Bold';
+    margin-bottom: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+/*---------- Header ----------*/
+
+
+
+
+/*---------- Section 1 ----------*/
+.s1 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #1F2936;
+    color: white;
+}
+.awesome, .placeholder {
+    margin: 50px;
+}
+.awesome {
+    width: 400px;
+    height: 200px;
+    padding-left: 20%;
+}
+
+.awesome h1 {
+    font-family: 'Roboto-Bold';
+    width: 360px;
+}
+
+.s1 p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn1 {
+    font-family: 'Roboto-Bold';
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.placeholder {
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+/*---------- Section 1 ----------*/
+
+
+
+
+/*---------- Section 2 ----------*/
+
+.s2 {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.s2 h1 {
+    margin-bottom: 30px;
+    font-family: 'Roboto-Bold';
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.box {
+    width: 300px;
+    height: 150px;
+    border: 6px solid #007bff;
+    border-radius: 5px;
+}
+
+.text {
+    flex: 1;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+/*---------- Section 2 ----------*/
+
+
+
+
+/*---------- Section 3 ----------*/
+.s3 {
+    background-color: lightgrey;
+    padding: 100px;
+}
+
+.quote {
+    font-family: 'Roboto-Italics';
+    text-shadow: rgb(77, 77, 77) 1px 0 8px;
+    font-size: 36px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+.credit {
+    font-family: 'Roboto-Bold';
+    font-size: 36px;
+    text-align: right;
+    margin-right: 500px;
+}
+/*---------- Section 3 ----------*/
+
+
+
+
+/*---------- Section 4 ----------*/
+.s4 {
+    margin: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: white;
+}
+
+.signup {
+    background-color: rgb(106, 106, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.signup p {
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.btn2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(106, 106, 255);
+    width: 150px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+/*---------- Section 4 ----------*/
+
+
+
+
+/*---------- Footer ----------*/
+footer {
+    color: white;
+    text-align: center;
+    background-color: #1F2936;
+    padding: 50px;
+}
+/*---------- Footer ----------*/
+
+
+
+
+/*---------- Page 2 ----------*/
+.container {
+    width: 600px;
+    border: 2px solid #000;
+    margin: auto;
+    float: none;
+}
+
+article {
+    width: 30%;
+    padding: 1.5%;
+    border: 1px solid #000;
+    float: left;
+}
+
+.clearfix {
+    margin: auto;
+    float: none;
+    clear: both;
+}
+/*---------- Page 2 ----------*/
+
+
+
+
+/*---------- Page 3 ----------*/
+.page3 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card p {
+    padding: 5px;
+}
+
+#updateTime {
+    margin: 20px;
+    font-style: italic;
+    color: #00000052;
+}
+/*---------- Page 3 ----------*/
